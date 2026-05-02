@@ -1,0 +1,38 @@
+{
+  "name": "revensi",
+  "version": "0.1.0",
+  "description": "CLI for the Revensi API. Scan a domain from your terminal.",
+  "type": "module",
+  "bin": {
+    "revensi": "./bin/revensi.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/revensi.js"
+  },
+  "keywords": [
+    "revensi",
+    "cli",
+    "scan",
+    "security"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ora": "^8.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "homepage": "https://revensi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/revensi/revensi-cli"
+  }
+}
